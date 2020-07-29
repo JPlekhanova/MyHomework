@@ -1,0 +1,42 @@
+a {
+color:#696969
+}
+a:hover {
+text-decoration:none;
+}
+
+.container {
+	width: 450px;
+	height: 500px;
+	background-color: #D3D3D3;
+	margin: 250px auto 0 auto;
+	text-align: center;
+}
+.container img{
+	width: 120px;
+	height: 120px;
+	margin: -60px 0 30px 0;
+	border: 5px solid #C0C0C0;
+	border-radius: 50%;
+	
+}
+input[type="text"], input[type="password"]{
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	padding-left: 10px;
+}
+.dws-submit {
+	padding: 13px 30px;
+	margin: 5px 0 20px 0;
+	font-size: 15px;
+	color: #fff;
+	background-color: #696969;
+	border: none;
+	border-bottom: 4px solid #778899;
+	cursor: pointer;
+}
+	
+	
