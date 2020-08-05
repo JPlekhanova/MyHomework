@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>РЕЗЮМЕ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="" method="POST">
+<div class="container">
+<img src="resume.jpg">
+<h1>РЕЗЮМЕ</h1>
+<div class="main">
+<b>1.ОСНОВНАЯ ИНФОРМАЦИЯ</b>
+</div>
+<table>
+<tr>
+<td><p>Фото <input type="file" accept="image/*"></p></td>
+<td width="25%">
+<p>Фамилия:<input type="text" value="Иванов" name="ФАМИЛИЯ"></p>
+<p>Имя: <input type="text" value="Иван" name="ИМЯ"></p>
+<p>Отчество: <input type="text" value="Иванович" name="ОТЧЕСТВО"></p>
+<p>Должность: <input type="text" value="QA Engineer" name="ДОЛЖНОСТЬ"></p>
+</td>
+</tr>
+<tr>
+<td width="25%"><p>Занятость:<br>
+<select class="employment" name="ЗАНЯТОСТЬ" size="1">
+<option>Полная</option>
+<option>Частичная</option>
+<option>Проектная</option>
+<option>Стажировка</option>
+</select>
+</p>
+</td>
+<td wigth="25%">
+<p>График работы:<br>
+<select class="timetable" name="ГРАФИК РАБОТЫ" size="1">
+<option>Полный день</option>
+<option>Сменный график</option>
+<option>Гибкий график</option>
+<option>Удаленная работа</option>
+<option>Вахтовый метод</option>
+</select>
+</p>
+</td>
+<td><p><label><input type="checkbox" name="confirm">Готовность к командировкам</label></p></td>
+</tr>
+<tr>
+<td width="25%">
+<p>Телефон:<br>
+ <input type="tel" placeholder="+37529-777-77-77" name="phone" pattern="[+]375[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"></p>
+</td>
+<td width="25%">
+<p>Электронная почта: <input required type="email" value="ivan.ivanov@gmail.com"name="mail"></p>
+</td>
+<tr>
+</table>
+<div class="personal">
+<b>2.ЛИЧНАЯ ИНФОРМАЦИЯ</b>
+</div>
+<table>
+<tr>
+<td width="25%">
+<p>Город проживания:<br>
+ <input type="text" value="Минск" name="city"></p>
+ </td>
+<td width="25%">
+<p>Переезд<br>
+<select class="moving" name="Переезд" size="1">
+<option>Невозможен</option>
+<option>Возможен</option>
+<option>Желателен</option>
+<option>Нежелателен</option>
+</select>
+</p>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<p>Гражданство:<br>
+ <input type="text" value="Беларусь" name="citizenship"></p>
+ </td>
+ <td width="25%">
+<p>
+<label for="date">Дата рождения:</label><br>
+<input type="date" id="date" name="date">
+</p>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<p>Пол:<br>
+<label><input type="radio" name="gender">Мужской<br></label>
+<label><input type="radio" name="gender">Женский<br></label>
+</p>
+</td>
+<td width="25%">
+<p>Семейное положение<br>
+<select class="status" name="Семейное положение" size="1">
+<option>Холост</option>
+<option>Женат</option>
+<option>Замужем</option>
+<option>Не замужем</option>
+</select>
+</p>
+</td>
+<td width="25%">
+<p><label><input type="checkbox" name="confirm">Есть дети</label></p>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<p>Образование:<br>
+<select class="education" name="Образование" size="1">
+<option>Среднее</option>
+<option>Среднее профессиональное</option>
+<option>Высшее</option>
+<option>Неоконченное высшее</option>
+</select>
+</p>
+</td>
+<td width="25%">
+<p>Опыт работы:<br>
+<label><input type="radio" name="experience">Есть опыт работы<br></label>
+<label><input type="radio" name="experience">Нет опыта работы<br></label>
+</p>
+</td>
+</table>
+<div class="skills">
+<b>3.ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</b>
+</div>
+<p>Навыки и личные качества<br>
+<textarea name="message"></textarea>
+</p>
+
+<input class="button" type="submit" name="submit" value="Сохранить">
+</div>
+</form>
+</body>
+</html>
